@@ -25,7 +25,9 @@
   "dependencies": {
     "discord.js": "^12.2.0",
     "dotenv": "^8.2.0",
-    "nodemon": "^2.0.4",
     "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }

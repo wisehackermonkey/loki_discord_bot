@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  loki_discord_bot:
+    image: loki_discord_bot
+    build: .
+    environment:
+    env_file: .env
+      NODE_ENV: production
+    ports:
+      - 80:80

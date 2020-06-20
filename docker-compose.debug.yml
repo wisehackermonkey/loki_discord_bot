@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  loki_discord_bot:
+    image: loki_discord_bot
+    build: .
+    environment:
+      NODE_ENV: development
+    env_file: .env
+    ports:
+      - 80:80
+      - 9229:9229
+    command: node --inspect=0.0.0.0:9229 server.js
