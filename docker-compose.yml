@@ -5,7 +5,7 @@ services:
     image: loki_discord_bot
     build: .
     environment:
-    env_file: .env
       NODE_ENV: production
+    env_file: .env
     ports:
       - 80:80
