@@ -1,0 +1,28 @@
+{
+  "name": "loki_discord_bot",
+  "version": "1.0.0",
+  "description": "simple disord bot",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wisehackermonkey/loki_discord_bot.git"
+  },
+  "keywords": [
+    "disord",
+    "bot"
+  ],
+  "author": "wisehackermonkey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wisehackermonkey/loki_discord_bot/issues"
+  },
+  "homepage": "https://github.com/wisehackermonkey/loki_discord_bot#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0"
+  }
+}
